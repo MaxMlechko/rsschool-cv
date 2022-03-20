@@ -43,8 +43,9 @@ ___
 ## Courses:
   
   * CS50 video courses
-  * Computer science basics (IT-academy)
-  * Web-technologies basics (IT-academy)
+  * IT-academy. Computer science basics
+  * IT-academy. Web-technologies basics
+  * RSSchool. JavaScript/Front-end. Stage 0 
 
 ____
 ## Languages:
