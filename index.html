@@ -15,6 +15,7 @@
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code example</a></li>
             </ul>
         </nav>
     </header>
@@ -49,6 +50,33 @@
                 <li>VS Code</li>
             </ul>
         </section>
+        <div class="line"></div>
+        <section class="code" id="code">
+            <h2>Code example</h2>
+            <code>
+                <pre>
+function countSmileys(arr) {
+    arr = arr.join('');
+    console.log(arr)
+    let n = arr.length;
+    let result = 0;
+    for(let i = 0; i < n-1; i++)
+      {
+        if(arr[i] == ":" || arr[i] == ";")
+          {
+            if(arr[i+1] == "-" || arr[i+1] == "~")
+              if(arr[i+2] == ")" || arr[i+2] == "D")
+                result++;
+            if(arr[i+1] == ")" || arr[i+1] == "D")
+              result++;
+          }
+      }
+    return result;
+}
+                </pre>
+            </code>
+        </section>
+        <div class="line"></div>
     </div>
 </body>
 </html>
