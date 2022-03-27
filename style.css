@@ -73,3 +73,20 @@ h1{
     font-size: 45px;
     text-decoration: underline rgb(27, 25, 25) 3px;
 }
+
+footer{
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+}
+
+.copyright{
+    margin-right: auto;
+}
+
+.rs{
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+}
